@@ -9,15 +9,7 @@ end
 -- Run the application
 function RBXHub:run()
     while true do
-        -- Your application code here
-    end
-end
-
--- Call the init and run methods to start the application
-RBXHub:init()
-RBXHub:run()
-
--- Get the player and their UserId
+        -- Get the player and their UserId
 local player = game.Players.LocalPlayer
 local userId = player.UserId
 
@@ -44,3 +36,13 @@ end
 
 -- Listen for user input to open the website URL
 websiteLabel.MouseButton1Click:Connect(openWebsite)
+
+    end
+end
+
+-- Call the init and run methods to start the application
+RBXHub:init()
+RBXHub:run()
+
+-- Get the player and their UserId
+local player = game.Players.LocalPlayerwebsiteLabel.MouseButton1Click:Connect(openWebsite)
